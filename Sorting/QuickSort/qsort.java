@@ -1,6 +1,8 @@
 /*
  * Author : Mitkumar Pandya
- * Unity ID : mhpandya
+ * CSC-505 Fall 2016
+ * Department of Computer Science
+ * 	NC State
  */
 
 import java.io.BufferedReader;
