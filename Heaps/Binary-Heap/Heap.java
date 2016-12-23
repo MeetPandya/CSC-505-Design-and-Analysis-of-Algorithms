@@ -1,4 +1,9 @@
-package com.meet.semester1.Practice.Heaps;
+/*
+ * Author : Mitkumar Pandya
+ * CSC-505 Fall 2016
+ * Department of Computer Science
+ * 	  NC State
+ */
 
 public class Heap {
 	public Node[] heapArray;
