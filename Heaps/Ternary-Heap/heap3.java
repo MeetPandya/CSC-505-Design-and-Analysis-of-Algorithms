@@ -28,27 +28,6 @@ public class heap3 {
 	
 	public static void main(String[] args) {
 		try{
-			//BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
-			/*BufferedReader in = new BufferedReader(new FileReader("input.txt"));
-			List<Integer> output = new ArrayList<Integer>(); 
-			Pattern p1 = Pattern.compile("add");
-			Pattern p2 = Pattern.compile("remove");
-			heap3 th = new heap3();
-			String nextLine;
-			 while ((nextLine = in.readLine()) != null) {
-				Matcher m1 = p1.matcher(nextLine);
-				Matcher m2 = p2.matcher(nextLine);
-				if(m1.find()){
-					nextLine = nextLine.replace("add", "").trim();
-					th.insert(Integer.parseInt(nextLine));
-				}
-				else if(m2.find()){
-						Node node = th.removeMin();
-						System.out.println(node.data);
-						//output.add((node.data));
-				}
-			}
-		    	in.close();*/
 			Scanner sc = new Scanner(System.in);
 			Pattern p1 = Pattern.compile("add");
 			Pattern p2 = Pattern.compile("remove");
@@ -64,18 +43,6 @@ public class heap3 {
 					Node node = th.removeMin();
 					System.out.println(node.data);
 				}
-				/*Matcher m1 = p1.matcher(nextLine);
-				Matcher m2 = p2.matcher(nextLine);
-				if(m1.find()){
-					nextLine = nextLine.replace("add", "").trim();
-					th.insert(Integer.parseInt(nextLine));
-				}
-				else if(m2.find()){
-						Node node = th.removeMin();
-						System.out.println(node.data);
-						//output.add((node.data));
-				}*/
-				
 			}
 		    /*BufferedWriter out = new BufferedWriter(new OutputStreamWriter(System.out));
 		    Iterator<Integer> itr = output.listIterator();
